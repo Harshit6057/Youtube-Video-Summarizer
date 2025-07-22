@@ -1,0 +1,20 @@
+# Core Packages
+torch==2.2.1+cu118
+torchaudio==2.2.1+cu118
+torchvision==0.17.1+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Whisper (speech-to-text)
+git+https://github.com/openai/whisper.git
+
+# Video download & processing
+yt-dlp
+pytube>=12.1.2
+moviepy
+
+# Web App
+streamlit
+
+# AI and Integration
+openai
+langchain_Groq
